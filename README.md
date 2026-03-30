@@ -91,6 +91,7 @@ k must be random and unique for every encryption
 <img width="1507" height="1030" alt="image" src="https://github.com/user-attachments/assets/fbc1dfa8-c887-4b8c-8ee8-2c1c0379ffe8" />
 <p align="center"><i>Figure: Demonstration of private key leakage due to k reuse in ElGamal</i></p>
 
+---
 
 ### 4. Prevention Strategy
 
@@ -120,6 +121,45 @@ These show:
 
 * Vulnerability severity
 * Effectiveness of prevention
+
+## 📊 Experimental Results & Visual Analysis
+<img width="640" height="480" alt="attack_success" src="https://github.com/user-attachments/assets/dafb6efa-d601-4ad1-9ee3-6455fdf6b23d" />
+
+<i>Figure: Success rate of reused k attack vs secure scenarios</i></p>
+
+
+<img width="640" height="480" alt="attack_variants" src="https://github.com/user-attachments/assets/ea9ebcae-816f-4a86-84c2-ff98406650dc" />
+
+<i>Figure: Comparison showing that attacks succeed only when the same k is reused, while different k remains secure</i></p>
+
+<img width="640" height="480" alt="improvement" src="https://github.com/user-attachments/assets/871c7c41-b14b-4070-bce8-27b96234f06a" />
+
+<i>Figure: Significant reduction in attack success rate after applying secure k generation techniques</i>
+
+<img width="640" height="480" alt="integrity" src="https://github.com/user-attachments/assets/7da6bc44-7d4e-4bfb-9db4-49e97bc3d99d" />
+
+<i>Figure: Demonstrates total loss of message integrity when the system is compromised by reused k</i>
+
+<img width="640" height="480" alt="overhead" src="https://github.com/user-attachments/assets/350cc98c-8fa4-4ab6-a127-311ac8e54a4b" />
+
+<i>Figure: Comparison of computational overhead showing minimal cost for implementing prevention mechanisms</i>
+
+<img width="640" height="480" alt="prevention" src="https://github.com/user-attachments/assets/b93c17f1-3c32-45d7-ad60-80039994ef15" />
+
+<i>Figure: Both random and deterministic k generation methods effectively eliminate the vulnerability</i>
+
+<img width="640" height="480" alt="resource" src="https://github.com/user-attachments/assets/0d1ffaa5-bcb7-4082-bd7c-ba1710e2eafd" />
+
+<i>Figure: Resource utilization comparison indicating slightly higher cost for secure implementations</i>
+
+<img width="640" height="480" alt="solution_comparison" src="https://github.com/user-attachments/assets/4ab157ee-410c-45c2-8589-389c5c6a7ed3" />
+
+<i>Figure: Reused k attack is significantly more effective than brute force, emphasizing its severity</i>
+
+<img width="640" height="480" alt="time_vs_size" src="https://github.com/user-attachments/assets/ddad4e4f-ef91-4e89-9b9d-4143da7bde35" />
+
+<i>Figure: Execution time analysis across different key sizes demonstrating scalability of the approach</i>
+
 
 ---
 
@@ -179,7 +219,7 @@ It demonstrates vulnerabilities to help understand secure cryptographic design.
 
 * Ishita Banerjee
 * Somil Verma
-* Arnav 
+* Arnav Shukla
 
 ---
 
