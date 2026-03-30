@@ -87,6 +87,10 @@ k must be random and unique for every encryption
   * Secure hashing in prevention
 
 ---
+## 📊 ElGamal Reused k Attack Visualization
+<img width="1507" height="1030" alt="image" src="https://github.com/user-attachments/assets/fbc1dfa8-c887-4b8c-8ee8-2c1c0379ffe8" />
+<p align="center"><i>Figure: Demonstration of private key leakage due to k reuse in ElGamal</i></p>
+
 
 ### 4. Prevention Strategy
 
